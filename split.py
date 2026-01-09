@@ -3,7 +3,7 @@ from ase.io import read, write
 import random
 
 def split_dataset(input_file, train_ratio=0.8, seed=42):
-    print(f"正在读取 {input_file} ... (可能需要一点时间)")
+    print(f"正在读取 {input_file} ... ")
 
     # 1. 读取由 Shell 脚本生成的大文件
     # index=':' 表示读取所有帧

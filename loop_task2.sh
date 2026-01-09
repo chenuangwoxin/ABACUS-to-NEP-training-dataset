@@ -27,5 +27,6 @@ do
 done
 cp NEP-dataset_50.xyz NEP-dataset.xyz
 echo "all extxyz files have been added to NEP-dataset.xyz"
+cd ..
 
 python split.py
