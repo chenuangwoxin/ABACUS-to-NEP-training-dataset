@@ -14,7 +14,7 @@ do
  sh abacus2nep.sh .
  cd ../../
 done
-
+echo "all STRU files have been convert to extxyz format"
 
 mkdir -p NEPdataset
 cd NEPdataset
@@ -26,3 +26,6 @@ do
     fi
 done
 cp NEP-dataset_50.xyz NEP-dataset.xyz
+echo "all extxyz files have been added to NEP-dataset.xyz"
+
+python split.py
